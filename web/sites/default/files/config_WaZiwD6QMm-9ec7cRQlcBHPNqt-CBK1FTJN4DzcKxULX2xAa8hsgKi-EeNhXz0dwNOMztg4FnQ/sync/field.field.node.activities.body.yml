@@ -1,0 +1,23 @@
+uuid: dad3dcbb-f1a3-4780-89c3-4090c417aec9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.activities
+  module:
+    - text
+id: node.activities.body
+field_name: body
+entity_type: node
+bundle: activities
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

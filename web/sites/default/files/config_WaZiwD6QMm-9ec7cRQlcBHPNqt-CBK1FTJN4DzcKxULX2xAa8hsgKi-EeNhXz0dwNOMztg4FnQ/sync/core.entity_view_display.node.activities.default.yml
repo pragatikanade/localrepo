@@ -1,0 +1,28 @@
+uuid: ed0017cd-2634-4f26-aec1-b08793008235
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.activities.body
+    - node.type.activities
+  module:
+    - text
+    - user
+id: node.activities.default
+targetEntityType: node
+bundle: activities
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
